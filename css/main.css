@@ -88,9 +88,6 @@ nav ul {
   width: 100%;
   margin-top: 0;
 }
-.home-link {
-  float: left;
-}
 nav li a:hover {
   color: #59191F;
   text-decoration: underline;
@@ -105,7 +102,6 @@ nav li a:hover {
   background-attachment: fixed;
   background-position: center;
   padding: 110px;
-
 }
 .home h1 {
   font-size: 36px;
@@ -390,6 +386,119 @@ input, textarea {
   color: #F2F2F2;
   text-align: center;
 }
+
+/* ----------------------------------------
+Media Queries
+------------------------------------------- */
+@media screen and (max-width: 1200px) {
+  .home-text h1 {
+    font-size: 32px;
+    margin: 0 100px 0 100px;
+    padding-top: 160px;
+  }
+  .overview-home h1 {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .overview-home h1 {
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
+  .overview-home p {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .overview-home h1 {
+    margin-bottom: 5px;
+    font-size: 28px;
+  }
+  .overview-home p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .connect-home h1 {
+    font-size: 56px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .home-text h1 {
+    font-size: 26px;
+    margin: 0 50px 0 50px;
+    padding-top: 160px;
+  }
+  .overview-home h1 {
+    margin-bottom: 0;
+    font-size: 30px;
+  }
+  .overview-home-text {
+    padding: 0;
+  }
+  .overview-home p {
+    font-size: 15px;
+  }
+  .connect-home h1 {
+    font-size: 50px;
+  }
+  .passion-function {
+    padding: 100px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .home-text h1 {
+    font-size: 26px;
+    margin: 0 20px 0 20px;
+    padding-top: 160px;
+  }
+  .passion {
+    padding: 80px;
+    margin-bottom: 50px;
+  }
+  .grid-columns {
+    display: block;
+  }
+  .col-1-2 {
+    flex-basis: 100%;
+  }
+  .projects-main {
+    padding: 80px;
+  }
+  .form-button {
+    padding: 5px 150px 5px 150px;
+  }
+  .form-button:hover {
+    padding: 5px 150px 5px 150px;
+  }
+  .overview-home h1 {
+    margin-bottom: 0;
+    font-size: 20px;
+  }
+  .overview-home p {
+    font-size: 15px;
+  }
+  .overview-home-text {
+    padding: 0;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 375px) {
+  .home-text h1 {
+    font-size: 20px;
+    margin: 0 60px 0 20px;
+    color: white;
+  }
+  .home {
+    background-attachment: none;
+    background-position: top;
+    padding: 30px;
+  }
+  nav {
+    display: none;
+  }
+}
+
 /* ----------------------------------------
 Placeholder Text
 ------------------------------------------- */
