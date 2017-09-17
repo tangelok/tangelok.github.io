@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT:400,700|Open+Sans+Condensed:300,700|Roboto');
+
+
+/* ==========================================================================
+   Base styles:
+   ========================================================================== */
+/* Fix to include padding and border in the total width for each element */
+* {
+  box-sizing: border-box;
+}
+
+/* Fix for responsive images */
+img {
+  max-width: 100%;
+}
+h1 {
+  font-family: 'Old Standard TT', serif;
+  color: #262626;
+}
+h2 {
+  font-family: 'Old Standard TT', serif;
+  color: #262626;
+  font-size: 36px;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  background-color: #F2F2F2;
+  margin: 0;
+  color: #262626;
+}
+a {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.available {
+  color: #59191F;
+  font-weight: 700;
+}
+
+
+/* ==========================================================================
+    Grid Systems
+ ========================================================================== */
+
+.col-1-3 {
+  flex-basis: 32%;
+}
+.col-2-3 {
+  flex-basis: 65%;
+}
+.col-1-2 {
+  flex-basis: 50%;
+}
+.col-1 {
+  flex-basis: 100%;
+}
+.grid-columns {
+  display: flex;
+}
+.grid-row {
+  display: block;
+}
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+nav li {
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  margin: 10px;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+nav li a {
+  text-decoration: none;
+  color: #595959;
+}
+nav ul {
+  text-align: right;
+  position: fixed;
+  background-color: #F2F2F2;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  top: 0;
+  width: 100%;
+  margin-top: 0;
+}
+.home-link {
+  float: left;
+}
+nav li a:hover {
+  color: #59191F;
+  text-decoration: underline;
+}
+
+ /* ==========================================================================
+    Home
+  ========================================================================== */
+.home {
+  background-image: url(../img/vines-wall-2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  padding: 110px;
+
+}
+.home h1 {
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+  margin: 160px 270px 0 270px;
+  /*color: #59191F;*/
+}
+#home-connect-button {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 30px 50px 30px 50px;
+  margin-top: 20px;
+  transition-duration: 0.25s;
+  color: #262626;
+}
+#home-connect-button:hover {
+  background-color: #59191F;
+  color: white;
+  cursor:pointer;
+}
+.alignment {
+    text-align: center;
+}
+.home-text {
+  padding: 30px;
+}
+/* ==========================================================================
+   Passion
+ ========================================================================== */
+.passion-content {
+  display: flex;
+  justify-content: space-between;
+}
+.passion {
+  padding: 120px;
+  margin-bottom: 50px;
+}
+.passion h2 {
+  font-size: 36px;
+  margin-bottom: 70px;
+}
+.passion-col {
+  line-height: 2;
+}
+.passion-col p {
+  margin-right: 0;
+  text-align: left;
+  margin-right: 40px;
+}
+.passion-col h3 {
+  font-size: 28px;
+}
+
+/* ==========================================================================
+   Selected Work
+ ========================================================================== */
+.project-container h2 {
+  font-size: 36px;
+  margin-left: 120px;
+  margin-bottom: 0;
+}
+.projects-main {
+  padding: 120px;
+}
+.spacing {
+  letter-spacing: -4px;
+}
+/* ==========================================================================
+   Connect
+ ========================================================================== */
+.connect {
+  padding: 30px 120px 50px 120px;
+}
+.connect h4 {
+  font-size: 22px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+/*#connect-header {
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 28px;
+}*/
+.connect a {
+  font-size: 45px;
+  color: #262626;
+  margin: 30px;
+}
+.connect a:hover {
+  color: #59191F;
+}
+.footer-container {
+  text-align: center;
+}
+#social-links {
+  text-align: center;
+  /*margin-left: 140px;*/
+  margin-bottom: 70px;
+}
+form {
+ font-family: 'Open Sans Condensed', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-transform: uppercase;
+  letter-spacing: .02em;
+  text-align: center;
+  color: #44545E;
+  padding: 50px;
+  width: 100%;
+  margin: 0 auto;
+}
+input, textarea {
+ display: block;
+ font-family: 'Open Sans Condensed', sans-serif;
+ text-transform: uppercase;
+ padding: 8px 25.5px;
+ text-align: center;
+ margin-bottom: 10px;
+ border: #44545E;
+ width: 100%;
+ font-size: 18px;
+}
+.form-button {
+ background-color: #59191F;
+ color: white;
+ font-family: 'Open Sans Condensed', sans-serif;
+ text-transform: uppercase;
+ padding: 5px 250px 5px 250px;
+ text-align: center;
+ margin-top: 10px;
+ width: 100%;
+ font-size: 18px;
+}
+.form-button:hover {
+ color: #59191F;
+ background-color: white;
+ border: 2px solid #59191F;
+ font-family: 'Open Sans Condensed', sans-serif;
+ text-transform: uppercase;
+ padding: 5px 250px 5px 250px;
+ transition: 0.25s;
+ cursor:pointer;
+}
+
+/* ==========================================================================
+    Footer
+ ========================================================================== */
+ footer {
+   padding: 80px;
+   background-image: url(../img/multicolor.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center;
+   color: #FCFFF5;
+   font-weight: 700;
+   text-align: center;
+ }
+ footer h2 {
+   color: #FCFFF5;
+   font-weight: 700;
+ }
+ .connect-button {
+   font-family: 'Open Sans Condensed', sans-serif;
+   text-transform: uppercase;
+   font-size: 18px;
+   padding: 30px 50px 30px 50px;
+   text-align: center;
+   margin-top: 40px;
+   transition-duration: 0.25s;
+   color: #262626;
+ }
+ .connect-button:hover {
+   background-color: #59191F;
+   color: white;
+   cursor:pointer;
+ }
+ /* ==========================================================================
+     Connect.html
+  ========================================================================== */
+ .connect-email {
+   font-family: 'Open Sans Condensed', sans-serif;
+   color: #262626;
+   font-size: 22px;
+ }
+ .connect-home {
+   background-image: url(../img/vines-color.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: top;
+   padding: 240px;
+ }
+ .connect-home h1 {
+   font-size: 63px;
+   font-weight: 700;
+   text-align: center;
+   color: #F2F2F2;
+   margin-bottom: 0;
+ }
+ .connect-home p {
+   color: #F2F2F2;
+   font-family: 'Open Sans Condensed', sans-serif;
+   font-size: 32px;
+   font-weight: 400;
+   text-align: center;
+   margin-top:0;
+ }
+ .connect-footer {
+   padding: 80px;
+   background-image: url(../img/blonde.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center;
+   color: #F2F2F2;
+   text-align: center;
+ }
+ .connect-footer p {
+   color: #F2F2F2;
+   font-size: 20px;
+ }
+ .passion-services {
+   padding: 80px;
+ }
+ .passion-services-content {
+   display: flex;
+   justify-content: space-between;
+ }
+ .passion-services ul {
+   list-style-type: none;
+   text-align: center;
+ }
+ .passion-services h3 {
+    text-align: center;
+ }
+ .passion-services li {
+   font-size: 19px;
+ }
+ .passion-function {
+   padding:120px;
+ }
+ /* ==========================================================================
+     Overview.html
+  ========================================================================== */
+.overview-home {
+  padding: 240px;
+  background-image: url(../img/block-white-vines.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+  color: #59191F;
+}
+.overview-home h1 {
+  color: #59191F;
+  font-size: 37px;
+  margin-top: 65px;
+  margin-bottom: 40px;
+}
+.overview-home-text {
+  padding: 30px;
+}
+.overview-home p {
+  color: #59191F;
+  font-size: 20px;
+}
+.current-projects {
+  padding: 120px;
+}
+.past-projects {
+  padding: 120px;
+  background-color: #59191F;
+  color: #F2F2F2;
+  }
+.past-projects h2 {
+  color: #F2F2F2;
+}
+.overview-footer {
+  padding: 80px;
+  background-image: url(../img/colorful-doors.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: #F2F2F2;
+  text-align: center;
+}
+/* ----------------------------------------
+Placeholder Text
+------------------------------------------- */
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+
+}
