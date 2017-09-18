@@ -483,6 +483,81 @@ Media Queries
     margin: 0;
   }
 }
+@media screen and (max-width: 500px) {
+  .home-text h1 {
+    font-size: 26px;
+    margin: 0;
+    padding-top: 180px;
+  }
+  .home {
+    padding: 40px;
+  }
+  #home-connect-button {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 10px 30px 10px 30px;
+    margin-top: 20px;
+    transition-duration: 0.25s;
+    color: #262626;
+  }
+  #home-connect-button:hover {
+    background-color: #59191F;
+    color: white;
+    cursor:pointer;
+  }
+  .passion {
+    padding: 40px;
+    margin-bottom: 50px;
+  }
+  .passion h2 {
+    font-size: 30px;
+    margin-bottom: 70px;
+    text-align: center;
+  }
+  .passion-col p {
+    margin-right: 0;
+    text-align: center;
+    margin-right: 40px;
+    line-height: 1.5;
+  }
+  .passion-col h3 {
+    font-size: 24px;
+    line-height: 1;
+  }
+  .passion-content {
+    display: block;
+    text-align: center;
+  }
+  .col-1-3 {
+    flex-basis: 100%;
+  }
+  .project-container h2 {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .projects-main {
+    padding: 70px;
+  }
+  .connect {
+    padding: 30px 40px 0 40px;
+  }
+  .connect h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .form-button {
+    padding: 5px 50px 5px 50px;
+  }
+  nav ul {
+    text-align: center;
+    top: 0;
+    width: 100%;
+    margin-top: 0;
+  }
+}
 @media screen and (max-width: 375px) {
   .home-text h1 {
     font-size: 20px;
@@ -496,6 +571,71 @@ Media Queries
   }
   nav {
     display: none;
+  }
+  #home-connect-button {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 10px 30px 10px 30px;
+    margin-top: 20px;
+    transition-duration: 0.25s;
+    color: #262626;
+  }
+  #home-connect-button:hover {
+    background-color: #59191F;
+    color: white;
+    cursor:pointer;
+  }
+  .passion {
+    padding: 40px;
+    margin-bottom: 50px;
+  }
+  .passion h2 {
+    font-size: 30px;
+    margin-bottom: 70px;
+    text-align: center;
+  }
+  .passion-col p {
+    margin-right: 0;
+    text-align: center;
+    margin-right: 40px;
+    line-height: 1.5;
+  }
+  .passion-col h3 {
+    font-size: 24px;
+    line-height: 1;
+  }
+  .passion-content {
+    display: block;
+    text-align: center;
+  }
+  .col-1-3 {
+    flex-basis: 100%;
+  }
+  .project-container h2 {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .projects-main {
+    padding: 70px;
+  }
+  .connect {
+    padding: 30px 40px 0 40px;
+  }
+  .connect h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .form-button {
+    padding: 5px 50px 5px 50px;
+  }
+  nav ul {
+    text-align: center;
+    top: 0;
+    width: 100%;
+    margin-top: 0;
   }
 }
 
