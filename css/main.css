@@ -351,10 +351,9 @@ input, textarea {
   background-attachment: fixed;
   background-position: center;
   text-align: center;
-  color: #59191F;
+  color: #262626;
 }
 .overview-home h1 {
-  color: #59191F;
   font-size: 37px;
   margin-top: 65px;
   margin-bottom: 40px;
@@ -363,7 +362,7 @@ input, textarea {
   padding: 30px;
 }
 .overview-home p {
-  color: #59191F;
+  color: #262626;
   font-size: 20px;
 }
 .current-projects {
@@ -378,13 +377,20 @@ input, textarea {
   color: #F2F2F2;
 }
 .overview-footer {
-  padding: 80px;
-  background-image: url(../img/colorful-doors.jpg);
+  padding: 60px;
+  background-image: url(../img/create.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   color: #F2F2F2;
   text-align: center;
+}
+/*.overview-footer h2 {
+  color: #F2F2F2;
+  margin-top: 100px;
+}*/
+.connect-button {
+  margin-top: 420px;
 }
 
 /* ----------------------------------------
@@ -446,6 +452,11 @@ Media Queries
     padding: 100px;
   }
 }
+@media screen and (max-width: 850px) {
+  .overview-home {
+    padding: 250px 120px 200px 120px;
+  }
+}
 @media screen and (max-width: 650px) {
   .home-text h1 {
     font-size: 26px;
@@ -472,16 +483,38 @@ Media Queries
     padding: 5px 150px 5px 150px;
   }
   .overview-home h1 {
-    margin-bottom: 0;
-    font-size: 20px;
+    font-size: 28px;
   }
-  .overview-home p {
+  .overview-home {
+    padding: 250px 80px 200px 80px;
+  }
+  .current-projects {
+    padding: 120px 60px 120px 60px;
+  }
+  .current-projects h2 {
+    font-size: 35px;
+    margin-bottom: 50px;
+  }
+  .current-projects h3 {
+    font-size: 23px;
+  }
+  .current-projects p {
     font-size: 15px;
   }
-  .overview-home-text {
-    padding: 0;
-    margin: 0;
+  .past-projects {
+    padding: 120px 80px 120px 80px;
   }
+  .past-projects h2 {
+    font-size: 31px;
+    margin-bottom: 50px;
+  }
+  .past-projects h3 {
+    font-size: 23px;
+  }
+  .past-projects p {
+    font-size: 15px;
+  }
+
 }
 @media screen and (max-width: 500px) {
   .home-text h1 {
@@ -557,6 +590,38 @@ Media Queries
     width: 100%;
     margin-top: 0;
   }
+  .overview-home h1 {
+    font-size: 26px;
+  }
+  .overview-home {
+    padding: 230px 50px 180px 50px;
+  }
+  .current-projects {
+    padding: 120px 40px 120px 40px;
+  }
+  .current-projects h2 {
+    font-size: 31px;
+    margin-bottom: 50px;
+  }
+  .current-projects h3 {
+    font-size: 23px;
+  }
+  .current-projects p {
+    font-size: 15px;
+  }
+  .past-projects {
+    padding: 120px 40px 120px 40px;
+  }
+  .past-projects h2 {
+    font-size: 31px;
+    margin-bottom: 50px;
+  }
+  .past-projects h3 {
+    font-size: 23px;
+  }
+  .past-projects p {
+    font-size: 15px;
+  }
 }
 @media screen and (max-width: 375px) {
   .home-text h1 {
@@ -576,7 +641,7 @@ Media Queries
     font-family: 'Open Sans Condensed', sans-serif;
     text-transform: uppercase;
     font-size: 14px;
-    padding: 10px 30px 10px 30px;
+    padding: 0 30px 0 30px;
     margin-top: 20px;
     transition-duration: 0.25s;
     color: #262626;
@@ -587,12 +652,12 @@ Media Queries
     cursor:pointer;
   }
   .passion {
-    padding: 40px;
-    margin-bottom: 50px;
+    padding: 0
+    margin-bottom: 20px;
   }
   .passion h2 {
     font-size: 30px;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
     text-align: center;
   }
   .passion-col p {
@@ -604,6 +669,7 @@ Media Queries
   .passion-col h3 {
     font-size: 24px;
     line-height: 1;
+    text-align: center;
   }
   .passion-content {
     display: block;
@@ -619,7 +685,7 @@ Media Queries
     text-align: center;
   }
   .projects-main {
-    padding: 70px;
+    padding: 10px;
   }
   .connect {
     padding: 30px 40px 0 40px;
@@ -631,11 +697,51 @@ Media Queries
   .form-button {
     padding: 5px 50px 5px 50px;
   }
-  nav ul {
+  .current-projects {
+    padding: 0;
     text-align: center;
-    top: 0;
-    width: 100%;
-    margin-top: 0;
+    font-size: 30px;
+  }
+  .past-projects {
+    padding: 0;
+  }
+  .passion-content h3 {
+    text-align: center;
+  }
+  .overview-home {
+    padding: 230px 50px 180px 50px;
+  }
+  .overview-home h1 {
+    font-size: 20px;
+  }
+  .overview-home p {
+    font-size: 14px;
+  }
+  .current-projects {
+    padding: 120px 40px 120px 40px;
+  }
+  .current-projects h2 {
+    font-size: 31px;
+    margin-bottom: 50px;
+  }
+  .current-projects h3 {
+    font-size: 23px;
+  }
+  .current-projects p {
+    font-size: 15px;
+  }
+  .past-projects {
+    padding: 120px 40px 120px 40px;
+  }
+  .past-projects h2 {
+    font-size: 31px;
+    margin-bottom: 50px;
+  }
+  .past-projects h3 {
+    font-size: 23px;
+  }
+  .past-projects p {
+    font-size: 15px;
   }
 }
 

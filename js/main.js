@@ -39,3 +39,14 @@ $('.exit   ').on('click', function(){
     $('.connect-button').on('click', function () {
     	 window.location.href="connect.html"
     });
+
+    //If you click on .connect-button
+      //Then it will bring you to .connect on homepage
+
+
+/* ----------------------------------------
+Connect.html
+------------------------------------------- */
+$('.connect-email').on('click', function (){
+     window.location.href="index.html"
+});
