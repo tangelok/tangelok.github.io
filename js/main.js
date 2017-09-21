@@ -23,7 +23,7 @@ Responsive Design
 $('.hamburger').on('click', function (){
   $('.side-nav').toggleClass('open');
 });
-$('.exit   ').on('click', function(){
+$('.exit').on('click', function(){
   $('.side-nav').removeClass('open');
 });
 
