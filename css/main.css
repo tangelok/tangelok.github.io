@@ -100,6 +100,7 @@ nav li a:hover {
   position: fixed;
   top: 0;
   left: 0;
+  display: block;
 }
 .side-nav {
   transform: translateX(-100px);
@@ -133,14 +134,14 @@ nav li a:hover {
   color: #D1DBBD;
 }
 .exit {
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    text-transform: none;
-    font-size: 20px;
-    text-decoration: none;
-    color: #D1DBBD;
-    transform: translateX(0px);
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  text-transform: none;
+  font-size: 20px;
+  text-decoration: none;
+  color: #D8D8D8;
+  transform: translateX(0px);
 }
 
  /* ==========================================================================
@@ -199,7 +200,7 @@ nav li a:hover {
   line-height: 2;
 }
 .passion-col p {
-  text-align: left;
+  text-align: center;
 }
 .passion-col h3 {
   font-size: 28px;
@@ -379,6 +380,7 @@ input, textarea {
  .passion-services ul {
    list-style-type: none;
    text-align: center;
+   padding-left: 0;
  }
  .passion-services h3 {
     text-align: center;
@@ -434,8 +436,11 @@ input, textarea {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  color: #F2F2F2;
+  color: #262626;
   text-align: center;
+}
+.overview-footer h2 {
+  color: #262626;
 }
 
 
@@ -611,19 +616,21 @@ Media Queries
   }
   .passion-services-content {
     display: block;
+    justify-content: space-between;
     flex-wrap: wrap;
   }
   .passion-services-content ul {
-    text-align: left;
+    text-align: center;
   }
   .passion-services-content h3 {
-    text-align: left;
+    text-align: center;
   }
   .passion-function-content {
     display: block;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    text-align: center;
   }
   .passion-function h2 {
     margin-bottom: 60px;
@@ -667,7 +674,6 @@ Media Queries
   .passion-col p {
     margin-right: 0;
     text-align: center;
-    margin-right: 40px;
     line-height: 1.5;
   }
   .passion-col h3 {
@@ -739,7 +745,7 @@ Media Queries
     font-size: 15px;
   }
   .connect-home {
-    padding: 120px;
+    padding: 180px 60px 180px 60px;
   }
   .connect-home h1 {
     font-size: 45px;
@@ -769,9 +775,10 @@ Media Queries
     font-size: 20px;
     /*margin: 0 60px 0 60px;*/
     color: white;
+    font-weight: 700;
   }
   .home {
-    padding: 30px;
+    padding: 30px 30px 60px 30px;
   }
   #home-connect-button {
     font-size: 17px;
@@ -785,14 +792,12 @@ Media Queries
     margin-bottom: 20px;
   }
   .passion h2 {
-    font-size: 26px;
+    font-size: 30px;
     margin-bottom: 40px;
     text-align: center;
   }
   .passion-col p {
-    margin-right: 0;
     text-align: center;
-    margin-right: 40px;
     line-height: 1.5;
   }
   .passion-col h3 {
@@ -874,6 +879,12 @@ Media Queries
   }
   .connect a {
     margin: 10px;
+  }
+  .connect-footer {
+    color: #262626;
+  }
+  .connect-home {
+    padding: 180px 60px 180px 60px;
   }
 }
 
