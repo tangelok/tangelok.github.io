@@ -334,6 +334,14 @@ input, textarea {
    font-family: 'Open Sans Condensed', sans-serif;
    color: #262626;
    font-size: 22px;
+   padding: 30px 50px 30px 50px;
+   margin-top: 20px;
+   transition-duration: 0.25s;
+ }
+ .connect-email:hover {
+   background-color: #59191F;
+   color: white;
+   cursor:pointer;
  }
  .connect-home {
    background-image: url(../img/vines-color.jpg);
@@ -766,9 +774,9 @@ Media Queries
     display: block;
     text-align: right;
   }
-  nav {
+  /*nav {
     display: none;
-  }
+  }*/
 }
 @media screen and (max-width: 375px) {
   .home-text h1 {
@@ -778,7 +786,7 @@ Media Queries
     font-weight: 700;
   }
   .home {
-    padding: 30px 30px 60px 30px;
+    padding: 30px 30px 100px 30px;
   }
   #home-connect-button {
     font-size: 17px;
@@ -792,7 +800,7 @@ Media Queries
     margin-bottom: 20px;
   }
   .passion h2 {
-    font-size: 30px;
+    font-size: 28px;
     margin-bottom: 40px;
     text-align: center;
   }
@@ -880,11 +888,17 @@ Media Queries
   .connect a {
     margin: 10px;
   }
-  .connect-footer {
+  .connect-footer h2 {
+    color: #262626;
+  }
+  .connect-footer p {
     color: #262626;
   }
   .connect-home {
     padding: 180px 60px 180px 60px;
+  }
+  .passion-function {
+    font-size: 30px;
   }
 }
 
