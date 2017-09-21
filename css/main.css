@@ -341,6 +341,10 @@ input, textarea {
  .passion-function {
    padding:120px;
  }
+ .passion-function-content {
+   display: flex;
+   justify-content: space-between;
+ }
  /* ==========================================================================
      Overview.html
   ========================================================================== */
@@ -449,12 +453,35 @@ Media Queries
     font-size: 50px;
   }
   .passion-function {
-    padding: 100px;
+    padding: 80px;
+  }
+  .passion-services {
+    padding: 60px;
   }
 }
 @media screen and (max-width: 850px) {
   .overview-home {
     padding: 250px 120px 200px 120px;
+  }
+  .past-projects {
+    padding: 120px 60px 120px 60px;
+  }
+  .current-projects {
+    padding: 120px 60px 120px 60px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .passion-function {
+    padding: 60px;
+  }
+  .passion-function h3 {
+    font-size: 20px;
+  }
+  .passion-services {
+    padding: 60px;
+  }
+  .passion-services h3 {
+    font-size: 25px;
   }
 }
 @media screen and (max-width: 650px) {
@@ -514,7 +541,49 @@ Media Queries
   .past-projects p {
     font-size: 15px;
   }
-
+  .connect-home {
+    padding: 180px;
+  }
+  .connect-home h1 {
+    font-size: 56px;
+  }
+  .connect-home p {
+    font-size: 28px;
+  }
+  .passion-function {
+    padding: 60px;
+  }
+  .passion-function h3 {
+    font-size: 20px;
+  }
+  .passion-services {
+    padding: 60px;
+  }
+  .passion-services h3 {
+    font-size: 25px;
+  }
+  .passion-services h2 {
+    margin-bottom: 60px;
+  }
+  .passion-services-content {
+    display: block;
+    flex-wrap: wrap;
+  }
+  .passion-services-content ul {
+    text-align: left;
+  }
+  .passion-services-content h3 {
+    text-align: left;
+  }
+  .passion-function-content {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .passion-function h2 {
+    margin-bottom: 60px;
+  }
 }
 @media screen and (max-width: 500px) {
   .home-text h1 {
@@ -621,6 +690,21 @@ Media Queries
   }
   .past-projects p {
     font-size: 15px;
+  }
+  .connect-home {
+    padding: 120px;
+  }
+  .connect-home h1 {
+    font-size: 45px;
+  }
+  .connect-home p {
+    font-size: 25px;
+  }
+  .text-display {
+    display: none;
+  }
+  .passion-function h2 {
+    font-size: 34px;
   }
 }
 @media screen and (max-width: 375px) {
