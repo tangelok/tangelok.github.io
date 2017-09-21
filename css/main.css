@@ -855,18 +855,14 @@ Media Queries
   }
   .overview-home h1 {
     color: #F2F2F2;
+    font-size: 26px;
   }
   .overview-home p {
     color: #F2F2F2;
+    font-size: 18px;
   }
   .overview-home {
     padding: 230px 50px 180px 50px;
-  }
-  .overview-home h1 {
-    font-size: 20px;
-  }
-  .overview-home p {
-    font-size: 14px;
   }
   .overview-footer h2 {
     color: #F2F2F2;
@@ -912,8 +908,8 @@ Media Queries
   .connect-home {
     padding: 180px 60px 180px 60px;
   }
-  .passion-function {
-    font-size: 30px;
+  .passion-function h2{
+    font-size: 29px;
   }
 }
 
