@@ -844,11 +844,17 @@ Media Queries
     text-align: center;
     font-size: 30px;
   }
+  .current-projects h2 {
+    font-size: 29px;
+  }
   .past-projects {
     padding: 0;
   }
   .passion-content h3 {
     text-align: center;
+  }
+  .overview-home-text {
+    color: #F2F2F2;
   }
   .overview-home {
     padding: 230px 50px 180px 50px;
@@ -858,6 +864,9 @@ Media Queries
   }
   .overview-home p {
     font-size: 14px;
+  }
+  .overview-footer {
+    color: #F2F2F2;
   }
   .current-projects {
     padding: 120px 40px 120px 40px;
