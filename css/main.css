@@ -853,7 +853,10 @@ Media Queries
   .passion-content h3 {
     text-align: center;
   }
-  .overview-home-text {
+  .overview-home h1 {
+    color: #F2F2F2;
+  }
+  .overview-home p {
     color: #F2F2F2;
   }
   .overview-home {
@@ -865,14 +868,17 @@ Media Queries
   .overview-home p {
     font-size: 14px;
   }
-  .overview-footer {
+  .overview-footer h2 {
+    color: #F2F2F2;
+  }
+  .overview-footer p {
     color: #F2F2F2;
   }
   .current-projects {
     padding: 120px 40px 120px 40px;
   }
   .current-projects h2 {
-    font-size: 31px;
+    font-size: 29px;
     margin-bottom: 50px;
   }
   .current-projects h3 {
