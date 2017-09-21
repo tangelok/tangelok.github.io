@@ -367,7 +367,7 @@ input, textarea {
  }
  .connect-footer {
    padding: 80px;
-   background-image: url(../img/blonde.jpg);
+   background-image: url(../img/pink-funky.jpg);
    background-size: cover;
    background-attachment: fixed;
    background-position: center;
@@ -900,12 +900,6 @@ Media Queries
   }
   .connect a {
     margin: 10px;
-  }
-  .connect-footer h2 {
-    color: #262626;
-  }
-  .connect-footer p {
-    color: #262626;
   }
   .connect-home {
     padding: 180px 60px 180px 60px;
