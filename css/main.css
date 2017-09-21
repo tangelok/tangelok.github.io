@@ -862,13 +862,15 @@ Media Queries
     font-size: 18px;
   }
   .overview-home {
-    padding: 230px 50px 180px 50px;
+    padding: 180px 50px 150px 50px;
   }
   .overview-footer h2 {
     color: #F2F2F2;
+    font-weight: 700;
   }
   .overview-footer p {
     color: #F2F2F2;
+    font-weight: 700;
   }
   .current-projects {
     padding: 120px 40px 120px 40px;
