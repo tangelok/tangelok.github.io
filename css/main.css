@@ -52,6 +52,9 @@ a {
 .col-1-2 {
   flex-basis: 47%;
 }
+.col-1-2-full {
+  flex-basis: 50%;
+}
 .col-1 {
   flex-basis: 100%;
 }
@@ -156,10 +159,10 @@ nav li a:hover {
 }
 .home h1 {
   font-size: 36px;
-  font-weight: 400;
+  font-weight: 700;
   text-align: center;
   margin: 160px 270px 0 270px;
-  /*color: #59191F;*/
+  color: #59191F;
 }
 #home-connect-button {
   font-family: 'Open Sans Condensed', sans-serif;
@@ -419,12 +422,13 @@ input, textarea {
   font-size: 37px;
   margin-top: 65px;
   margin-bottom: 40px;
+  color: #59191F;
 }
 .overview-home-text {
   padding: 30px;
 }
 .overview-home p {
-  color: #262626;
+  color: #59191F;
   font-size: 20px;
 }
 .current-projects {
@@ -787,6 +791,7 @@ Media Queries
   }
   .home {
     padding: 30px 30px 100px 30px;
+    background-size: 40px 20px;
   }
   #home-connect-button {
     font-size: 17px;
