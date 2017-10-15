@@ -8,12 +8,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+
     </head>
   <body>
     <header>
@@ -75,7 +74,7 @@
           </div>
           <div class="grid-row">
             <div class="col-1 projects">
-              <a href=""><img src="img/pacific.png" alt="pacific" class="image"></a>
+              <a href=""><img src="img/e-marie.png" alt="e-marie" class="image"></a>
             </div>
           </div>
           <div class="grid-columns">
@@ -92,11 +91,11 @@
     <section class="connect">
       <h2>Connect <span class="spacing">----------</span></h2>
       <div class="footer-container">
-          <form>
-            <input type="text" name="username" placeholder="Full Name" id="">
-            <input type="email" placeholder="Email">
-            <input type="text" placeholder="Subject" id="">
-            <textarea placeholder="Message"></textarea>
+          <form action="https://formspree.io/krineangelo@gmail.com" method="POST" id="contact-form">
+            <input type="text" name="full-name" placeholder="Full Name" id="">
+            <input type="email" name="email" placeholder="Email">
+            <input type="text" name="subject" placeholder="Subject" id="">
+            <textarea placeholder="Message" name="message" form="contact-form"></textarea>
             <button class="form-button" type="submit">Submit</button>
           </form>
         </div>
