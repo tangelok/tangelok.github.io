@@ -47,6 +47,8 @@ $('.exit').on('click', function(){
 /* ----------------------------------------
 Connect.html
 ------------------------------------------- */
-$('.connect-email').on('click', function (){
-     window.location.href="index.html"
+$(".connect-email").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#contact-form").offset().top},
+        'slow');
 });

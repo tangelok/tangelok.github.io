@@ -332,6 +332,52 @@ input, textarea {
    cursor:pointer;
  }
  /* ==========================================================================
+     Coming soon!
+  ========================================================================== */
+  .coming h2 {
+    color: #F2F2F2;
+    font-weight: 700;
+    margin-top: 0;
+    font-size: 26px;
+  }
+  .coming p {
+    color: #F2F2F2;
+  }
+  .coming-main h1 {
+    margin-top: 100px;
+    color: #F2F2F2;
+    font-size: 40px;
+  }
+  .coming-main h3 {
+    font-size: 26px;
+  }
+  .coming-main {
+    background-color: #59191F;
+    padding: 50px;
+    text-align: center;
+    color: #F2F2F2;
+  }
+  .coming {
+    background-color: #59191F;
+    text-align: center;
+    padding-bottom: 100px;
+  }
+  #social-links-coming {
+   text-align: center;
+  }
+ #social-links-coming a {
+    text-decoration: none;
+    font-size: 35px;
+    color: #F2F2F2;
+    margin: 30px;
+ }
+ #social-links-coming a:hover {
+   color: #262626;
+ }
+ .connect-button {
+   margin-bottom: 20px;
+ }
+ /* ==========================================================================
      Connect.html
   ========================================================================== */
  .connect-email {
@@ -435,6 +481,14 @@ input, textarea {
 .current-projects {
   padding: 120px;
 }
+.current-projects a {
+  font-size: 28px;
+  text-align: center;
+  text-decoration: none;
+  color: #262626;
+  font-family: 'Old Standard TT', serif;
+  font-weight: 700;
+}
 .past-projects {
   padding: 120px;
   background-color: #59191F;
@@ -442,6 +496,14 @@ input, textarea {
   }
 .past-projects h2 {
   color: #F2F2F2;
+}
+.past-projects a {
+  font-size: 28px;
+  text-align: center;
+  text-decoration: none;
+  color: #F2F2F2;
+  font-family: 'Old Standard TT', serif;
+  font-weight: 700;
 }
 .overview-footer {
   padding: 50px;
