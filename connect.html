@@ -92,7 +92,22 @@
     <footer class="connect-footer">
       <h2>Sound good? Let's get the ball rolling.</h2>
       <p>Send me an email telling me a bit about your business and what you’re interested in working on...</p>
-      <button class="connect-email">krineangelo@gmail.com</button>
+            <!-- Trigger/Open The Modal -->
+      <button class="connect-email" id="myBtn">krineangelo@gmail.com</button>
+            <!-- The Modal -->
+        <div id="myModal" class="modal">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <form action="https://formspree.io/krineangelo@gmail.com" method="POST" id="contact-form">
+              <input type="text" name="full-name" placeholder="Full Name" id="">
+              <input type="email" name="email" placeholder="Email">
+              <input type="text" name="subject" placeholder="Subject" id="">
+              <textarea placeholder="Message" name="message" form="contact-form"></textarea>
+              <button class="form-button" type="submit">Submit</button>
+            </form>
+            </div>
+        </div>
     </footer>
         <script src="js/vendor/jquery-1.12.0.min.js"></script>
         <script src="js/main.js"></script>
