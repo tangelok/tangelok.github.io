@@ -552,7 +552,9 @@ input, textarea {
 .overview-footer h2 {
   color: #262626;
 }
-
+.passion-col a {
+  text-align: center;
+}
 
 
 /* ----------------------------------------
