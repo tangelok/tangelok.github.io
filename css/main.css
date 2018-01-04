@@ -64,6 +64,9 @@ a {
 .grid-row {
   display: block;
 }
+.row {
+  display: flex;
+}
 
 /* ==========================================================================
    Header
@@ -201,9 +204,6 @@ nav li a:hover {
 }
 .passion-col {
   line-height: 2;
-}
-.passion-col p {
-  text-align: center;
 }
 .passion-col h3 {
   font-size: 28px;
@@ -493,7 +493,7 @@ input, textarea {
   ========================================================================== */
 .overview-home {
   padding: 240px;
-  background-image: url(../img/block-white-vines.jpg);
+  background-image: url(../img/block-white-vines.jpg.icloud);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -888,10 +888,11 @@ Media Queries
     /*margin: 0 60px 0 60px;*/
     color: white;
     font-weight: 700;
+    color: #59191F;
   }
   .home {
-    padding: 30px 30px 100px 30px;
-    background-size: 40px 20px;
+    padding: 150px 30px 100px 30px;
+    background-color: #59191F;
   }
   #home-connect-button {
     font-size: 17px;

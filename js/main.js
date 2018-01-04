@@ -28,7 +28,6 @@ $('.exit').on('click', function(){
 });
 
 
-
 //IF you scroll x pixels
   //Then it will remove current nav bar and add new one
 
