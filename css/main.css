@@ -24,6 +24,7 @@ h2 {
 }
 p {
   font-family: 'Roboto', sans-serif;
+  text-align: center;
 }
 body {
   background-color: #F2F2F2;
@@ -209,6 +210,7 @@ nav li a:hover {
   font-size: 28px;
   text-align: center;
 }
+
 
 /* ==========================================================================
    Selected Work
@@ -493,7 +495,7 @@ input, textarea {
   ========================================================================== */
 .overview-home {
   padding: 240px;
-  background-image: url(../img/block-white-vines.jpg.icloud);
+  background-image: url(../img/block-white-vines.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -514,7 +516,7 @@ input, textarea {
   font-size: 20px;
 }
 .current-projects {
-  padding: 120px;
+  padding: 80px;
 }
 .current-projects a {
   font-size: 28px;
@@ -525,7 +527,7 @@ input, textarea {
   font-weight: 700;
 }
 .past-projects {
-  padding: 120px;
+  padding: 80px;
   background-color: #59191F;
   color: #F2F2F2;
   }
@@ -553,6 +555,30 @@ input, textarea {
   color: #262626;
 }
 .passion-col a {
+  text-align: center;
+}
+.passion-content-overview {
+  display: block;
+  justify-content: space-between;
+}
+.passion-col-overview {
+  line-height: 2;
+  padding: 0px 10px 0px 10px;
+}
+.passion-col-overview h3 {
+  font-size: 28px;
+  text-align: center;
+}
+.current-content-overview {
+  display: flex;
+  justify-content: space-between;
+}
+.current-col-overview {
+  line-height: 2;
+  padding: 0px 10px 0px 10px;
+}
+.current-col-overview h3 {
+  font-size: 28px;
   text-align: center;
 }
 
@@ -750,6 +776,15 @@ Media Queries
   .connect a {
     margin: 10px;
   }
+  .current-content-overview {
+    display: block;
+  }
+  .row {
+    display: block;
+  }
+  .sm-col-1 {
+    flex-basis: 98%;
+  }
 }
 @media screen and (max-width: 500px) {
   .home-text h1 {
@@ -886,12 +921,11 @@ Media Queries
   .home-text h1 {
     font-size: 20px;
     /*margin: 0 60px 0 60px;*/
-    color: white;
     font-weight: 700;
-    color: #59191F;
+    color: #F2F2F2;
   }
   .home {
-    padding: 150px 30px 100px 30px;
+    padding: 80px 30px 80px 30px;
     background-color: #59191F;
   }
   #home-connect-button {
