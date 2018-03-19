@@ -306,16 +306,16 @@ input, textarea {
  ========================================================================== */
  footer {
    padding: 80px;
-   background-image: url(../img/multicolor.jpg);
+   background-image: url(../img/funky.jpg);
    background-size: cover;
    background-attachment: fixed;
    background-position: center;
-   color: #FCFFF5;
+   color: #262626;
    font-weight: 700;
    text-align: center;
  }
  footer h2 {
-   color: #FCFFF5;
+   color: #262626;
    font-weight: 700;
  }
  .connect-button {
@@ -419,15 +419,15 @@ input, textarea {
  }
  .connect-footer {
    padding: 80px;
-   background-image: url(../img/pink-funky.jpg);
+   background-image: url(../img/funky.jpg);
    background-size: cover;
    background-attachment: fixed;
    background-position: center;
-   color: #F2F2F2;
+   color: #262626;
    text-align: center;
  }
  .connect-footer p {
-   color: #F2F2F2;
+   color: #262626;
    font-size: 20px;
  }
  .passion-services {
