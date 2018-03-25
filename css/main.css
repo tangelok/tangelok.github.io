@@ -665,6 +665,12 @@ Media Queries
   .passion-services {
     padding: 60px;
   }
+  .bg-row {
+    display: block;
+  }
+  .bd-row {
+    display: block;
+  }
 }
 @media screen and (max-width: 850px) {
   .overview-home {
@@ -690,6 +696,14 @@ Media Queries
   }
   form {
     padding: 10px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .bg-screenshots {
+    padding: 50px;
+  }
+  .bd-screenshots {
+    padding: 50px;
   }
 }
 @media screen and (max-width: 650px) {
@@ -933,6 +947,12 @@ Media Queries
   .hamburger {
     display: block;
     text-align: right;
+  }
+  .bg-screenshots {
+    padding: 20px;
+  }
+  .bd-screenshots {
+    padding: 20px;
   }
   /*nav {
     display: none;
