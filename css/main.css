@@ -387,6 +387,9 @@ input, textarea {
 .bd-screenshots {
   padding: 110px;
 }
+.comingsoon-para-bd {
+  padding: 0px 100px 0px 100px;
+}
 /* ==========================================================================
   Bob Gillespie
  ========================================================================== */
@@ -397,7 +400,9 @@ input, textarea {
 .bg-screenshots {
  padding: 110px;
 }
-
+.comingsoon-para-bg {
+  padding: 0px 120px 0px 120px;
+}
  /* ==========================================================================
      Connect.html
   ========================================================================== */
@@ -841,12 +846,6 @@ Media Queries
   .home {
     padding: 40px;
   }
-  .overview-home-text h1 {
-    margin: 0;
-  }
-  .overview-home {
-    padding: 200px 0px 140px 0px;
-  }
   #home-connect-button {
     font-family: 'Open Sans Condensed', sans-serif;
     text-transform: uppercase;
@@ -914,6 +913,12 @@ Media Queries
   .overview-home h1 {
     font-size: 26px;
   }
+  .overview-home-text h1 {
+    margin: 0;
+  }
+  .overview-home {
+    padding: 200px 0px 140px 0px;
+  }
   .current-projects {
     padding: 120px 40px 120px 40px;
   }
@@ -972,12 +977,19 @@ Media Queries
     display: none;
   }*/
 }
+@media screen and (max-width: 450px) {
+  .overview-home-text h1 {
+    margin: 0;
+  }
+  .overview-home {
+    padding: 200px 0px 140px 0px;
+  }
+}
 @media screen and (max-width: 375px) {
   .home-text h1 {
     font-size: 20px;
     /*margin: 0 60px 0 60px;*/
     font-weight: 700;
-    color: #F2F2F2;
   }
   .home {
     padding: 70px 30px 80px 30px;
@@ -1048,15 +1060,11 @@ Media Queries
   .passion-content h3 {
     text-align: center;
   }
-  .overview-home h1 {
-    color: #F2F2F2;
-  }
   .overview-home p {
-    color: #F2F2F2;
     font-size: 18px;
   }
   .overview-home {
-    padding: 180px 50px 150px 50px;
+    padding: 100px 0px 100px 0px;
   }
   .overview-footer h2 {
     color: #F2F2F2;
@@ -1095,9 +1103,9 @@ Media Queries
   .connect a {
     margin: 10px;
   }
-  .connect-home {
+  /* .connect-home {
     padding: 180px 60px 180px 60px;
-  }
+  } */
   .passion-function h2{
     font-size: 29px;
   }
