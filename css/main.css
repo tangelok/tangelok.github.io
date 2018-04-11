@@ -1116,7 +1116,7 @@ Media Queries
   .connect-home {
     background-image: url(../img/white-wall-vine.jpg);
     background-size: cover;
-    background-position: right;
+    background-position: center;
   }
 }
 
