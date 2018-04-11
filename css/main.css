@@ -390,6 +390,10 @@ input, textarea {
 .comingsoon-para-bd {
   padding: 0px 100px 0px 100px;
 }
+.overview-home-text h1 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
 /* ==========================================================================
   Bob Gillespie
  ========================================================================== */
@@ -1116,7 +1120,7 @@ Media Queries
   .connect-home {
     background-image: url(../img/white-wall-vine.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: right;
   }
 }
 
