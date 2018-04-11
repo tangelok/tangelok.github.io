@@ -1046,9 +1046,6 @@ Media Queries
   .projects-main {
     padding: 10px;
   }
-  .connect {
-    padding: 30px 20px 0 20px;
-  }
   .connect h2 {
     font-size: 30px;
     text-align: center;
@@ -1115,6 +1112,11 @@ Media Queries
   } */
   .passion-function h2{
     font-size: 29px;
+  }
+  .connect-home {
+    background-image: url(../img/white-wall-vine.jpg);
+    background-size: cover;
+    background-position: right;
   }
 }
 
