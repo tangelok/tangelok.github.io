@@ -157,15 +157,14 @@ nav li a:hover {
 .home {
   background-image: url(../img/vines-wall-2.jpg);
   background-size: cover;
-  background-attachment: fixed;
   background-position: center;
-  padding: 110px;
+  padding: 90px;
 }
 .home h1 {
   font-size: 36px;
   font-weight: 700;
   text-align: center;
-  margin: 160px 270px 0 270px;
+  margin: 200px 270px 0 270px;
   color: #59191F;
 }
 #home-connect-button {
@@ -306,16 +305,15 @@ input, textarea {
  ========================================================================== */
  footer {
    padding: 80px;
-   background-image: url(../img/funky.jpg);
+   background-image: url(../img/vines-color.jpg);
    background-size: cover;
-   background-attachment: fixed;
    background-position: center;
-   color: #262626;
+   color: white;
    font-weight: 700;
    text-align: center;
  }
  footer h2 {
-   color: #262626;
+   color: white;
    font-weight: 700;
  }
  .connect-button {
@@ -417,7 +415,7 @@ input, textarea {
    cursor:pointer;
  }
  .connect-home {
-   background-image: url(../img/vines-color.jpg);
+   background-image: url(../img/white-wall-vine.jpg);
    background-size: cover;
    background-attachment: fixed;
    background-position: top;
@@ -427,11 +425,11 @@ input, textarea {
    font-size: 63px;
    font-weight: 700;
    text-align: center;
-   color: #F2F2F2;
+    color: #59191F;
    margin-bottom: 0;
  }
  .connect-home p {
-   color: #F2F2F2;
+    color: #59191F;
    font-family: 'Open Sans Condensed', sans-serif;
    font-size: 32px;
    font-weight: 400;
@@ -440,19 +438,23 @@ input, textarea {
  }
  .connect-footer {
    padding: 80px;
-   background-image: url(../img/funky.jpg);
+   background-image: url(../img/vines-color.jpg);
    background-size: cover;
-   background-attachment: fixed;
    background-position: center;
-   color: #262626;
+   color: white;
    text-align: center;
  }
  .connect-footer p {
-   color: #262626;
+   color: white;
    font-size: 20px;
  }
  .passion-services {
    padding: 80px;
+   background-color: #59191F;
+   color: #F2F2F2;
+ }
+ .passion-services h2 {
+   color: #F2F2F2;
  }
  .passion-services-content {
    display: flex;
@@ -515,10 +517,9 @@ input, textarea {
      Overview.html
   ========================================================================== */
 .overview-home {
-  padding: 240px;
+  padding: 100px;
   background-image: url(../img/block-white-vines.jpg);
   background-size: cover;
-  background-attachment: fixed;
   background-position: center;
   text-align: center;
   color: #262626;
@@ -527,6 +528,7 @@ input, textarea {
   font-size: 37px;
   margin-top: 65px;
   margin-bottom: 40px;
+  padding: 100px 140px 0px 140px;
   color: #59191F;
 }
 .overview-home-text {
@@ -565,15 +567,14 @@ input, textarea {
 }
 .overview-footer {
   padding: 50px;
-  background-image: url(../img/funky.jpg);
+  background-image: url(../img/vines-color.jpg);
   background-size: cover;
-  background-attachment: fixed;
   background-position: center;
-  color: #262626;
+  color: white;
   text-align: center;
 }
 .overview-footer h2 {
-  color: #262626;
+  color: white;
 }
 .passion-col a {
   text-align: center;
@@ -674,7 +675,7 @@ Media Queries
 }
 @media screen and (max-width: 850px) {
   .overview-home {
-    padding: 250px 120px 200px 120px;
+    padding: 180px 0px 180px 0px;
   }
   .past-projects {
     padding: 120px 60px 120px 60px;
@@ -706,6 +707,11 @@ Media Queries
     padding: 50px;
   }
 }
+@media screen and (max-width: 700px) {
+  .overview-home {
+    padding: 140px 20px 140px 20px;
+  }
+}
 @media screen and (max-width: 650px) {
   .home-text h1 {
     font-size: 26px;
@@ -731,11 +737,11 @@ Media Queries
   .form-button:hover {
     padding: 5px 150px 5px 150px;
   }
-  .overview-home h1 {
-    font-size: 28px;
-  }
   .overview-home {
-    padding: 250px 80px 200px 80px;
+    padding: 100px 0px 120px 0px;
+  }
+  .overview-home h1 {
+    font-size: 27px;
   }
   .current-projects {
     padding: 120px 60px 120px 60px;
@@ -821,6 +827,11 @@ Media Queries
     flex-basis: 98%;
   }
 }
+@media screen and (max-width: 600px) {
+  .overview-home {
+    padding: 140px 0px 140px 0px;
+  }
+}
 @media screen and (max-width: 500px) {
   .home-text h1 {
     font-size: 26px;
@@ -829,6 +840,12 @@ Media Queries
   }
   .home {
     padding: 40px;
+  }
+  .overview-home-text h1 {
+    margin: 0;
+  }
+  .overview-home {
+    padding: 200px 0px 140px 0px;
   }
   #home-connect-button {
     font-family: 'Open Sans Condensed', sans-serif;
@@ -896,9 +913,6 @@ Media Queries
   }
   .overview-home h1 {
     font-size: 26px;
-  }
-  .overview-home {
-    padding: 230px 50px 180px 50px;
   }
   .current-projects {
     padding: 120px 40px 120px 40px;
@@ -1036,7 +1050,6 @@ Media Queries
   }
   .overview-home h1 {
     color: #F2F2F2;
-    font-size: 26px;
   }
   .overview-home p {
     color: #F2F2F2;
