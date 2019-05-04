@@ -1,0 +1,1147 @@
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT:400,700|Open+Sans+Condensed:300,700|Roboto');
+
+
+/* ==========================================================================
+   Base styles:
+   ========================================================================== */
+/* Fix to include padding and border in the total width for each element */
+* {
+  box-sizing: border-box;
+}
+
+/* Fix for responsive images */
+img {
+  max-width: 100%;
+}
+h1 {
+  font-family: 'Old Standard TT', serif;
+  color: #262626;
+}
+h2 {
+  font-family: 'Old Standard TT', serif;
+  color: #262626;
+  font-size: 36px;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+body {
+  background-color: #F2F2F2;
+  margin: 0;
+  color: #262626;
+}
+a {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.available {
+  color: #59191F;
+  font-weight: 700;
+}
+
+
+/* ==========================================================================
+    Grid Systems
+ ========================================================================== */
+
+.col-1-3 {
+  flex-basis: 30%;
+}
+.col-2-3 {
+  flex-basis: 65%;
+}
+.col-1-2 {
+  flex-basis: 47%;
+}
+.col-1-2-full {
+  flex-basis: 50%;
+}
+.col-1 {
+  flex-basis: 100%;
+}
+.grid-columns {
+  display: flex;
+}
+.grid-row {
+  display: block;
+}
+.row {
+  display: flex;
+}
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+nav li {
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  margin: 10px;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+nav li a {
+  text-decoration: none;
+  color: #595959;
+}
+nav ul {
+  text-align: right;
+  position: fixed;
+  background-color: #F2F2F2;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  top: 0;
+  width: 100%;
+  margin-top: 0;
+}
+nav li a:hover {
+  color: #59191F;
+  text-decoration: underline;
+}
+.hamburger {
+	font-size: 45px;
+	margin: 10px 0;
+	padding-left: 20px;
+  color: #262626;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: block;
+}
+.side-nav {
+  transform: translateX(-100px);
+  transition: all 350ms ease-in-out;
+}
+.open {
+  transform: translateX(0px);
+}
+#nav-sidebar {
+  width: 100px;
+  height: 50%;
+  background-color:#F2F2F2;
+  color: #262626;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px 0;
+}
+#nav-sidebar ul {
+  color: #D1DBBD;
+}
+#nav-sidebar li a {
+  text-decoration: none;
+  color: #D1DBBD;
+}
+#nav-sidebar li a:hover {
+  text-decoration: none;
+  color: #FCFFF5;
+}
+#nav-sidebar h2 {
+  color: #D1DBBD;
+}
+.exit {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  text-transform: none;
+  font-size: 20px;
+  text-decoration: none;
+  color: #D8D8D8;
+  transform: translateX(0px);
+}
+
+ /* ==========================================================================
+    Home
+  ========================================================================== */
+.home {
+  background-image: url(../img/white-wood-vines.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+}
+.home h1 {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin: 200px 270px 0 270px;
+  color: #59191F;
+}
+#home-connect-button {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 30px 50px 30px 50px;
+  margin-top: 20px;
+  transition-duration: 0.25s;
+  color: #262626;
+}
+#home-connect-button:hover {
+  background-color: #59191F;
+  color: white;
+  cursor:pointer;
+}
+.alignment {
+    text-align: center;
+}
+.home-text {
+  padding: 50px;
+}
+/* ==========================================================================
+   Passion
+ ========================================================================== */
+.passion-content {
+  display: flex;
+  justify-content: space-between;
+}
+.passion {
+  padding: 120px;
+  margin-bottom: 50px;
+}
+.passion h2 {
+  font-size: 36px;
+  margin-bottom: 70px;
+}
+.passion-col {
+  line-height: 2;
+}
+.passion-col h3 {
+  font-size: 28px;
+  text-align: center;
+}
+
+
+/* ==========================================================================
+   Selected Work
+ ========================================================================== */
+.project-container h2 {
+  font-size: 36px;
+  margin-left: 120px;
+  margin-bottom: 0;
+}
+.projects-main {
+  padding: 120px;
+}
+.spacing {
+  letter-spacing: -4px;
+}
+/* ==========================================================================
+   Connect
+ ========================================================================== */
+.connect {
+  padding: 30px 120px 50px 120px;
+}
+.connect h4 {
+  font-size: 22px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+/*#connect-header {
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 28px;
+}*/
+.connect a {
+  font-size: 45px;
+  color: #262626;
+  margin: 30px;
+}
+.connect a:hover {
+  color: #59191F;
+}
+.footer-container {
+  text-align: center;
+}
+#social-links {
+  text-align: center;
+  /*margin-left: 140px;*/
+  margin-bottom: 70px;
+}
+form {
+ font-family: 'Open Sans Condensed', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-transform: uppercase;
+  letter-spacing: .02em;
+  text-align: center;
+  color: #44545E;
+  padding: 50px;
+  width: 100%;
+  margin: 0 auto;
+}
+input, textarea {
+ display: block;
+ font-family: 'Open Sans Condensed', sans-serif;
+ text-transform: uppercase;
+ padding: 8px 25.5px;
+ text-align: center;
+ margin-bottom: 10px;
+ border: #44545E;
+ width: 100%;
+ font-size: 18px;
+}
+.form-button {
+ background-color: #59191F;
+ color: white;
+ font-family: 'Open Sans Condensed', sans-serif;
+ text-transform: uppercase;
+ padding: 5px 250px 5px 250px;
+ text-align: center;
+ margin-top: 10px;
+ width: 100%;
+ font-size: 18px;
+}
+.form-button:hover {
+ color: #59191F;
+ background-color: white;
+ border: 2px solid #59191F;
+ font-family: 'Open Sans Condensed', sans-serif;
+ text-transform: uppercase;
+ padding: 5px 250px 5px 250px;
+ transition: 0.25s;
+ cursor:pointer;
+}
+
+/* ==========================================================================
+    Footer
+ ========================================================================== */
+ footer {
+   padding: 80px;
+   background-image: url(../img/vines-color.jpg);
+   background-size: cover;
+   background-position: center;
+   color: white;
+   font-weight: 700;
+   text-align: center;
+ }
+ footer h2 {
+   color: white;
+   font-weight: 700;
+ }
+ .connect-button {
+   font-family: 'Open Sans Condensed', sans-serif;
+   text-transform: uppercase;
+   font-size: 18px;
+   padding: 30px 50px 30px 50px;
+   text-align: center;
+   margin-top: 40px;
+   transition-duration: 0.25s;
+   color: #262626;
+ }
+ .connect-button:hover {
+   background-color: #59191F;
+   color: white;
+   cursor:pointer;
+ }
+ /* ==========================================================================
+     Coming soon!
+  ========================================================================== */
+  .coming h2 {
+    color: #F2F2F2;
+    font-weight: 700;
+    margin-top: 0;
+    font-size: 26px;
+  }
+  .coming p {
+    color: #F2F2F2;
+  }
+  .coming-main h1 {
+    margin-top: 100px;
+    color: #F2F2F2;
+    font-size: 40px;
+  }
+  .coming-main h3 {
+    font-size: 26px;
+  }
+  .coming-main {
+    background-color: #59191F;
+    padding: 50px;
+    text-align: center;
+    color: #F2F2F2;
+  }
+  .coming {
+    background-color: #59191F;
+    text-align: center;
+    padding-bottom: 100px;
+  }
+  #social-links-coming {
+   text-align: center;
+  }
+ #social-links-coming a {
+    text-decoration: none;
+    font-size: 35px;
+    color: #F2F2F2;
+    margin: 30px;
+ }
+ #social-links-coming a:hover {
+   color: #262626;
+ }
+ .connect-button {
+   margin-bottom: 20px;
+ }
+ /* ==========================================================================
+     Blue Dragon
+  ========================================================================== */
+.bd-row {
+  display: flex;
+  justify-content: space-between;
+}
+.bd-screenshots {
+  padding: 110px;
+}
+.overview-home-text h1 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+/* ==========================================================================
+  Bob Gillespie
+ ========================================================================== */
+.bg-row {
+ display: flex;
+ justify-content: space-between;
+}
+.bg-screenshots {
+ padding: 110px;
+}
+ /* ==========================================================================
+     Connect.html
+  ========================================================================== */
+ .connect-email {
+   font-family: 'Open Sans Condensed', sans-serif;
+   color: #262626;
+   font-size: 22px;
+   padding: 30px 50px 30px 50px;
+   margin-top: 20px;
+   transition-duration: 0.25s;
+ }
+ .connect-email:hover {
+   background-color: #59191F;
+   color: white;
+   cursor:pointer;
+ }
+ .connect-home {
+   background-image: url(../img/white-wall-vine.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: top;
+   padding: 240px;
+ }
+ .connect-home h1 {
+   font-size: 63px;
+   font-weight: 700;
+   text-align: center;
+    color: #59191F;
+   margin-bottom: 0;
+ }
+ .connect-home p {
+    color: #59191F;
+   font-family: 'Open Sans Condensed', sans-serif;
+   font-size: 32px;
+   font-weight: 400;
+   text-align: center;
+   margin-top:0;
+ }
+ .connect-footer {
+   padding: 80px;
+   background-image: url(../img/vines-color.jpg);
+   background-size: cover;
+   background-position: center;
+   color: white;
+   text-align: center;
+ }
+ .connect-footer p {
+   color: white;
+   font-size: 20px;
+ }
+ .passion-services {
+   padding: 80px;
+   background-color: #59191F;
+   color: #F2F2F2;
+ }
+ .passion-services h2 {
+   color: #F2F2F2;
+ }
+ .passion-services-content {
+   display: flex;
+   justify-content: space-between;
+ }
+ .passion-services ul {
+   list-style-type: none;
+   text-align: center;
+   padding-left: 0;
+ }
+ .passion-services h3 {
+    text-align: center;
+ }
+ .passion-services li {
+   font-size: 19px;
+ }
+ .passion-function {
+   padding:120px;
+ }
+ .passion-function-content {
+   display: flex;
+   justify-content: space-between;
+ }
+ /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+ /* ==========================================================================
+     Overview.html
+  ========================================================================== */
+.overview-home {
+  padding: 100px;
+  background-image: url(../img/side-vine.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #262626;
+}
+.overview-home h1 {
+  font-size: 37px;
+  margin-top: 35px;
+  margin-bottom: 40px;
+  padding: 100px 140px 0px 140px;
+  color: #59191F;
+}
+.overview-home-text {
+  padding: 30px;
+}
+.overview-home p {
+  color: #59191F;
+  font-size: 20px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+.current-projects {
+  padding: 80px;
+}
+.current-projects a {
+  font-size: 28px;
+  text-align: center;
+  text-decoration: none;
+  color: #262626;
+  font-family: 'Old Standard TT', serif;
+  font-weight: 700;
+}
+.past-projects {
+  padding: 80px;
+  background-color: #59191F;
+  color: #F2F2F2;
+  }
+.past-projects h2 {
+  color: #F2F2F2;
+}
+.past-projects a {
+  font-size: 28px;
+  text-align: center;
+  text-decoration: none;
+  color: #F2F2F2;
+  font-family: 'Old Standard TT', serif;
+  font-weight: 700;
+}
+.overview-footer {
+  padding: 50px;
+  background-image: url(../img/vines-color.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+}
+.overview-footer h2 {
+  color: white;
+}
+.passion-col a {
+  text-align: center;
+}
+.passion-content-overview {
+  display: block;
+  justify-content: space-between;
+}
+.passion-col-overview {
+  line-height: 2;
+  padding: 0px 10px 0px 10px;
+}
+.passion-col-overview h3 {
+  font-size: 28px;
+  text-align: center;
+}
+.current-content-overview {
+  display: flex;
+  justify-content: space-between;
+}
+.current-col-overview {
+  line-height: 2;
+  padding: 0px 10px 0px 10px;
+}
+.current-col-overview h3 {
+  font-size: 28px;
+  text-align: center;
+}
+#italics {
+  font-style: italic;
+  font-size: 12px;
+}
+
+/* ----------------------------------------
+Comingsoon.html
+------------------------------------------- */
+#bob-home {
+  background-image: url(../vines-color.jpg) !important;
+}
+/* ----------------------------------------
+Media Queries
+------------------------------------------- */
+@media screen and (max-width: 1200px) {
+  .home-text h1 {
+    font-size: 32px;
+    margin: 0 100px 0 100px;
+    padding-top: 160px;
+  }
+  .overview-home h1 {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .overview-home h1 {
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
+  .overview-home p {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .overview-home h1 {
+    margin-bottom: 5px;
+    font-size: 28px;
+  }
+  .overview-home p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .connect-home h1 {
+    font-size: 56px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .home-text h1 {
+    font-size: 26px;
+    margin: 0 50px 0 50px;
+    padding-top: 160px;
+  }
+  .overview-home h1 {
+    margin-bottom: 0;
+    font-size: 30px;
+  }
+  .overview-home-text {
+    padding: 0;
+  }
+  .overview-home p {
+    font-size: 15px;
+  }
+  .connect-home h1 {
+    font-size: 50px;
+  }
+  .passion-function {
+    padding: 80px;
+  }
+  .passion-services {
+    padding: 60px;
+  }
+  .bg-row {
+    display: block;
+  }
+  .bd-row {
+    display: block;
+  }
+}
+@media screen and (max-width: 850px) {
+  .overview-home {
+    padding: 180px 0px 180px 0px;
+  }
+  .past-projects {
+    padding: 120px 60px 120px 60px;
+  }
+  .current-projects {
+    padding: 120px 60px 120px 60px;
+  }
+  .passion-function {
+    padding: 60px;
+  }
+  .passion-function h3 {
+    font-size: 20px;
+  }
+  .passion-services {
+    padding: 60px;
+  }
+  .passion-services h3 {
+    font-size: 25px;
+  }
+  form {
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .bg-screenshots {
+    padding: 50px;
+  }
+  .bd-screenshots {
+    padding: 50px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .overview-home {
+    padding: 140px 20px 140px 20px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .home-text h1 {
+    font-size: 26px;
+    margin: 0 20px 0 20px;
+    padding-top: 160px;
+  }
+  .passion {
+    padding: 80px;
+    margin-bottom: 50px;
+  }
+  .grid-columns {
+    display: block;
+  }
+  .col-1-2 {
+    flex-basis: 100%;
+  }
+  .projects-main {
+    padding: 80px;
+  }
+  .form-button {
+    padding: 5px 150px 5px 150px;
+  }
+  .form-button:hover {
+    padding: 5px 150px 5px 150px;
+  }
+  .overview-home {
+    padding: 100px 0px 120px 0px;
+  }
+  .overview-home h1 {
+    font-size: 27px;
+  }
+  .current-projects {
+    padding: 120px 60px 120px 60px;
+  }
+  .current-projects h2 {
+    font-size: 35px;
+    margin-bottom: 50px;
+  }
+  .current-projects h3 {
+    font-size: 23px;
+  }
+  .current-projects p {
+    font-size: 15px;
+  }
+  .past-projects {
+    padding: 120px 80px 120px 80px;
+  }
+  .past-projects h2 {
+    font-size: 31px;
+    margin-bottom: 50px;
+  }
+  .past-projects h3 {
+    font-size: 23px;
+  }
+  .past-projects p {
+    font-size: 15px;
+  }
+  .connect-home {
+    padding: 180px;
+  }
+  .connect-home h1 {
+    font-size: 56px;
+  }
+  .connect-home p {
+    font-size: 28px;
+  }
+  .passion-function {
+    padding: 60px;
+  }
+  .passion-function h3 {
+    font-size: 20px;
+  }
+  .passion-services {
+    padding: 60px;
+  }
+  .passion-services h3 {
+    font-size: 25px;
+  }
+  .passion-services h2 {
+    margin-bottom: 60px;
+  }
+  .passion-services-content {
+    display: block;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .passion-services-content ul {
+    text-align: center;
+  }
+  .passion-services-content h3 {
+    text-align: center;
+  }
+  .passion-function-content {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .passion-function h2 {
+    margin-bottom: 60px;
+  }
+  .connect a {
+    margin: 10px;
+  }
+  .current-content-overview {
+    display: block;
+  }
+  .row {
+    display: block;
+  }
+  .sm-col-1 {
+    flex-basis: 98%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .overview-home {
+    padding: 140px 0px 140px 0px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .home-text h1 {
+    font-size: 26px;
+    margin: 0;
+    padding-top: 180px;
+  }
+  .home {
+    padding: 40px;
+  }
+  #home-connect-button {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 10px 30px 10px 30px;
+    margin-top: 20px;
+    transition-duration: 0.25s;
+    color: #262626;
+  }
+  #home-connect-button:hover {
+    background-color: #59191F;
+    color: white;
+    cursor:pointer;
+  }
+  .passion {
+    padding: 40px;
+    margin-bottom: 50px;
+  }
+  .passion h2 {
+    font-size: 30px;
+    margin-bottom: 70px;
+    text-align: center;
+  }
+  .passion-col p {
+    margin-right: 0;
+    text-align: center;
+    line-height: 1.5;
+  }
+  .passion-col h3 {
+    font-size: 24px;
+    line-height: 1;
+  }
+  .passion-content {
+    display: block;
+    text-align: center;
+  }
+  .col-1-3 {
+    flex-basis: 100%;
+  }
+  .project-container h2 {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .projects-main {
+    padding: 70px;
+  }
+  .connect {
+    padding: 30px 40px 0 40px;
+  }
+  .connect h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .form-button {
+    padding: 5px 50px 5px 50px;
+  }
+  nav ul {
+    text-align: center;
+    top: 0;
+    width: 100%;
+    margin-top: 0;
+  }
+  .overview-home h1 {
+    font-size: 26px;
+  }
+  .overview-home-text h1 {
+    margin: 0;
+  }
+  .overview-home {
+    padding: 200px 0px 140px 0px;
+  }
+  .current-projects {
+    padding: 120px 40px 120px 40px;
+  }
+  .current-projects h2 {
+    font-size: 31px;
+    margin-bottom: 50px;
+  }
+  .current-projects h3 {
+    font-size: 23px;
+  }
+  .current-projects p {
+    font-size: 15px;
+  }
+  .past-projects {
+    padding: 120px 40px 120px 40px;
+  }
+  .past-projects h2 {
+    font-size: 31px;
+    margin-bottom: 50px;
+  }
+  .past-projects h3 {
+    font-size: 23px;
+  }
+  .past-projects p {
+    font-size: 15px;
+  }
+  .connect-home {
+    padding: 180px 60px 180px 60px;
+  }
+  .connect-home h1 {
+    font-size: 45px;
+  }
+  .connect-home p {
+    font-size: 25px;
+  }
+  .text-display {
+    display: none;
+  }
+  .passion-function h2 {
+    font-size: 34px;
+  }
+  .overview-footer {
+    padding: 40px;
+  }
+  .hamburger {
+    display: block;
+    text-align: right;
+  }
+  .bg-screenshots {
+    padding: 20px;
+  }
+  .bd-screenshots {
+    padding: 20px;
+  }
+  /*nav {
+    display: none;
+  }*/
+}
+@media screen and (max-width: 450px) {
+  .overview-home-text h1 {
+    margin: 0;
+  }
+  .overview-home p {
+    font-size: 18px;
+  }
+  .overview-home h1 {
+    font-size: 24px;
+  }
+  .overview-home {
+    padding: 200px 0px 140px 0px;
+  }
+  .overview-home-text h1 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .home-text h1 {
+    font-size: 20px;
+    /*margin: 0 60px 0 60px;*/
+    font-weight: 700;
+  }
+  .home {
+    padding: 70px 30px 80px 30px;
+    background-color: #59191F;
+  }
+  #home-connect-button {
+    font-size: 17px;
+    padding: 10px 30px 10px 30px;
+    margin-top: 20px;
+    transition-duration: 0.25s;
+    color: #262626;
+  }
+  .passion {
+    padding: 0
+    margin-bottom: 20px;
+  }
+  .passion h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .passion-col p {
+    text-align: center;
+    line-height: 1.5;
+  }
+  .passion-col h3 {
+    font-size: 24px;
+    line-height: 1;
+    text-align: center;
+  }
+  .passion-content {
+    display: block;
+    text-align: center;
+  }
+  .col-1-3 {
+    flex-basis: 100%;
+  }
+  .project-container h2 {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .projects-main {
+    padding: 10px;
+  }
+  .connect h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .form-button {
+    padding: 5px 50px 5px 50px;
+  }
+  .current-projects {
+    padding: 0;
+    text-align: center;
+    font-size: 30px;
+  }
+  .current-projects h2 {
+    font-size: 29px;
+  }
+  .past-projects {
+    padding: 0;
+  }
+  .passion-content h3 {
+    text-align: center;
+  }
+  .overview-home {
+    padding: 120px 0px 100px 0px;
+  }
+  .overview-footer h2 {
+    color: #F2F2F2;
+    font-weight: 700;
+  }
+  .overview-footer p {
+    color: #F2F2F2;
+    font-weight: 700;
+  }
+  .current-projects {
+    padding: 120px 40px 120px 40px;
+  }
+  .current-projects h2 {
+    font-size: 29px;
+    margin-bottom: 50px;
+  }
+  .current-projects h3 {
+    font-size: 23px;
+  }
+  .current-projects p {
+    font-size: 15px;
+  }
+  .past-projects {
+    padding: 120px 40px 120px 40px;
+  }
+  .past-projects h2 {
+    font-size: 31px;
+    margin-bottom: 50px;
+  }
+  .past-projects h3 {
+    font-size: 23px;
+  }
+  .past-projects p {
+    font-size: 15px;
+  }
+  .connect a {
+    margin: 10px;
+  }
+  /* .connect-home {
+    padding: 180px 60px 180px 60px;
+  } */
+  .passion-function h2{
+    font-size: 29px;
+  }
+  .connect-home {
+    background-image: url(../img/white-wall-vine.jpg);
+    background-size: cover;
+    background-position: right;
+  }
+}
+
+/* ----------------------------------------
+Placeholder Text
+------------------------------------------- */
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+
+}
