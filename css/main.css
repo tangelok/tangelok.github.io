@@ -155,10 +155,10 @@ nav li a:hover {
     Home
   ========================================================================== */
 .home {
-  background-image: url(../img/vines-wall-2.jpg);
+  background-image: url(../img/white-wood-vines.jpg);
   background-size: cover;
   background-position: center;
-  padding: 90px;
+  padding: 50px;
 }
 .home h1 {
   font-size: 36px;
@@ -185,7 +185,7 @@ nav li a:hover {
     text-align: center;
 }
 .home-text {
-  padding: 30px;
+  padding: 50px;
 }
 /* ==========================================================================
    Passion
@@ -521,7 +521,7 @@ input, textarea {
   ========================================================================== */
 .overview-home {
   padding: 100px;
-  background-image: url(../img/block-white-vines.jpg);
+  background-image: url(../img/side-vine.jpg);
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -529,7 +529,7 @@ input, textarea {
 }
 .overview-home h1 {
   font-size: 37px;
-  margin-top: 65px;
+  margin-top: 35px;
   margin-bottom: 40px;
   padding: 100px 140px 0px 140px;
   color: #59191F;
@@ -540,6 +540,8 @@ input, textarea {
 .overview-home p {
   color: #59191F;
   font-size: 20px;
+  margin-left: 250px;
+  margin-right: 250px;
 }
 .current-projects {
   padding: 80px;
@@ -606,8 +608,17 @@ input, textarea {
   font-size: 28px;
   text-align: center;
 }
+#italics {
+  font-style: italic;
+  font-size: 12px;
+}
 
-
+/* ----------------------------------------
+Comingsoon.html
+------------------------------------------- */
+#bob-home {
+  background-image: url(../vines-color.jpg) !important;
+}
 /* ----------------------------------------
 Media Queries
 ------------------------------------------- */
